@@ -53,3 +53,21 @@ ____
 	-net user,hostfwd=tcp::5022-:22 ^
 	-no-reboot
 ```
+
+# Рекомедуемая настройка виртуальной машины:
+
+### Логинимся под пользователем
+
+	user: pi
+	password: raspberry
+
+**Расширение места на диске**
+	sudo raspi-config
+	6) Advanced options > A1 Expand Filesystem
+**Увеличение производительности**
+	sudo raspi-config
+	4) Perfomance Options > P1 Overclock > set Turbo
+
+**Обновление системы**
+	sudo apt-get update && sudo apt-get upgrade -y
+
