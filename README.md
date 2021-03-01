@@ -22,7 +22,7 @@ ____
 
 ### Создаем start.bat со следующим содержанием:
 
-*при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img" в start.bat*
+*при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img" *
 
 ```
 	qemu-system-arm ^
