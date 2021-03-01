@@ -35,6 +35,7 @@ ____
 # Увеличение размера образа 
 
 	qemu-img resize 2021-01-11-raspios-buster-armhf-lite.img +2G
+*размер увеличился на 2Gb*
 
 ### Создаем start.bat со следующим содержанием:
 *при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img"*
