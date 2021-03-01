@@ -25,6 +25,9 @@ ____
 ![](https://raw.githubusercontent.com/tviks/windowsn-qemu-raspbian/main/pic/2.png "")
 	
 	Разархивируем и копируем скачанный образ в .../qemu/qemu
+	
+![](https://raw.githubusercontent.com/tviks/windowsn-qemu-raspbian/main/pic/3.png "")
+	
 	Копируем из папки qemu-rpi-kernel в папку .../qemu/qemu kernel-qemu-4.4.34-jessie
 	
 # Увеличение размера образа 
