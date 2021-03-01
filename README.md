@@ -30,12 +30,13 @@ ____
 	
 	Копируем из папки qemu-rpi-kernel в папку .../qemu/qemu kernel-qemu-4.4.34-jessie
 	
+![](https://raw.githubusercontent.com/tviks/windowsn-qemu-raspbian/main/pic/4.png "")
+	
 # Увеличение размера образа 
 
 	qemu-img resize 2021-01-11-raspios-buster-armhf-lite.img +2G
 
 ### Создаем start.bat со следующим содержанием:
-*пример фала конфигурации для raspberrypi zero w*  
 *при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img"*
 
 ```
