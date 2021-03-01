@@ -19,6 +19,10 @@ ____
 
 	Разархивируем и копируем скаченный образ в .../qemu/qemu
 	Копируем из папки qemu-rpi-kernel в папку .../qemu/qemu kernel-qemu-4.4.34-jessie
+	
+# Увеличение разсера образа 
+
+	qemu-img resize 2021-01-11-raspios-buster-armhf-lite.img +2G
 
 ### Создаем start.bat со следующим содержанием:
 
