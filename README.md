@@ -17,10 +17,13 @@ ____
 
 ## Распаковка и копирование образов
 
-Разархивируем и копируем скаченный образ в .../qemu/qemu (при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img" в start.bat
+Разархивируем и копируем скаченный образ в .../qemu/qemu 
 Копируем из папки qemu-rpi-kernel в папку .../qemu/qemu kernel-qemu-4.4.34-jessie
 
 ### Создаем start.bat со следующим содержанием:
+
+*при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img" в start.bat*
+
 ```
 	qemu-system-arm ^
 	-kernel kernel-qemu-4.4.34-jessie ^
