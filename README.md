@@ -11,7 +11,11 @@ ____
 -  [QEMU](https://qemu.weilnetz.de/w64/)
 -  [quemu_raspi_kernel](https://github.com/dhruvvyas90/qemu-rpi-kernel)
 -  [Raspbian](http://downloads.raspberrypi.org/raspbian/images/)
-	
+
+## Установка Qemu
+
+![](https://raw.githubusercontent.com/tviks/windowsn-qemu-raspbian/main/pic/1.png "qemu")
+
 *Примечание к установке*
 *QEMU путь для установки должен выглядить как .../qemu/qemu*
 
