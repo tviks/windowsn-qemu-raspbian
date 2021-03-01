@@ -78,5 +78,5 @@ ____
 	sudo apt-get update && sudo apt-get upgrade -y  
 
 ____
-# Метод №1
+# Метод №2
 
