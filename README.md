@@ -9,14 +9,16 @@ ____
 -  [quemu_raspi_kernel](https://github.com/dhruvvyas90/qemu-rpi-kernel)
 -  [Raspbian](http://downloads.raspberrypi.org/raspbian/images/)
 
-## Установка Qemu
+## Скачивание Qemu
 
 ![](https://raw.githubusercontent.com/tviks/windowsn-qemu-raspbian/main/pic/1.png "qemu")
 
+
+
+# Распаковка и установка
+
 *Примечание к установке*
 *QEMU путь для установки должен выглядить как .../qemu/qemu*
-
-# Распаковка и копирование образов
 	
 	Создаем папку на рабочем столе qemu затем, скачиваем и распаковываем(устанавливаем) в нее:
 
