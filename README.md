@@ -32,8 +32,8 @@ ____
 	qemu-img resize 2021-01-11-raspios-buster-armhf-lite.img +2G
 
 ### Создаем start.bat со следующим содержанием:
-
-*при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img" *
+*пример фала конфигурации для raspberrypi zero w"*  
+*при необходимости изменить строчку "-hda 2021-01-11-raspios-buster-armhf-lite.img"*
 
 ```
 	qemu-system-arm ^
